@@ -19,4 +19,8 @@ public class Lab3Test {
 	public void testTwo() throws Exception {
         assertEquals(list(2), PrimeFactors.generate(2));
 	}
+	@Test
+	public void testThree() throws Exception {
+        assertEquals(list(3), PrimeFactors.generate(3));
+	}
 }
