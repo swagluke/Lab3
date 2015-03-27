@@ -5,7 +5,7 @@ import org.junit.Test;
 
 
 
-public class Lab3Test {
+public class PrimeFactorsTest {
 
 	private  List<Integer> list(Integer...intergers) {
 		return Arrays.asList(intergers);
