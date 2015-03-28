@@ -15,9 +15,9 @@ public class PrimeGeneratorTest {
 	@Parameterized.Parameters
 	public static Collection<Object[]> primeNumbers() {
 		Integer[] first = {};
-		Integer[] second = {2, 3};
+		Integer[] second = {2,3};
 		Integer[] third = {2,3,5};
-		Integer[] fourth = {2, 3, 5, 7, 11,13};
+		Integer[] fourth = {2, 3, 5, 7, 11};
 		return Arrays.asList(new Object [] [] 
 				{{1, new ArrayList<Integer>(Arrays.asList(first))},
 				 {5, new ArrayList<Integer>(Arrays.asList(second))},
