@@ -22,8 +22,7 @@ public class PrimeGeneratorTest {
 				{{1, new ArrayList<Integer>(Arrays.asList(first))},
 				 {5, new ArrayList<Integer>(Arrays.asList(second))},
 				 {7, new ArrayList<Integer>(Arrays.asList(third))},
-				 {13, new ArrayList<Integer>(Arrays.asList(third))},
-				 
+				 {13, new ArrayList<Integer>(Arrays.asList(fourth))},
 				});
 	}
 
