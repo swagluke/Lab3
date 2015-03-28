@@ -18,11 +18,13 @@ public class PrimeGeneratorTest {
 		Integer[] second = {2,3};
 		Integer[] third = {2,3,5};
 		Integer[] fourth = {2, 3, 5, 7, 11};
+		Integer[] fifth = {2,3,5,7,11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89,97};
 		return Arrays.asList(new Object [] [] 
 				{{1, new ArrayList<Integer>(Arrays.asList(first))},
 				 {5, new ArrayList<Integer>(Arrays.asList(second))},
 				 {7, new ArrayList<Integer>(Arrays.asList(third))},
 				 {13, new ArrayList<Integer>(Arrays.asList(fourth))},
+				 {100, new ArrayList<Integer>(Arrays.asList(fifth))}
 				});
 	}
 
