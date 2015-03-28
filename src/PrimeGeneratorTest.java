@@ -16,9 +16,12 @@ public class PrimeGeneratorTest {
 	public static Collection<Object[]> primeNumbers() {
 		Integer[] first = {};
 		Integer[] second = {2, 3};
+		Integer[] third = {2,3,5};
 		return Arrays.asList(new Object [] [] 
 				{{1, new ArrayList<Integer>(Arrays.asList(first))},
-				 {5, new ArrayList<Integer>(Arrays.asList(second))}});
+				 {5, new ArrayList<Integer>(Arrays.asList(second))},
+				 {7, new ArrayList<Integer>(Arrays.asList(third))}
+				});
 	}
 
 	public PrimeGeneratorTest(int given, ArrayList<Integer> returned) {
